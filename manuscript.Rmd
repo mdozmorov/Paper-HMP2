@@ -66,6 +66,9 @@ Although the Greengenes taxonomy reference database remains a gold-standard in m
 - Pipelines differ, need to unify data processing (bioBakery?)
 Virtually any large-scale consortium developed their own data processing and analysis pipelines [@Thompson:2017aa].
 
+- Analysis
+We described a limited set of analyses that can be performed using the `HMP2Data` R package. However, many more analyses are possible (see `phyloseq` tutorials [@McMurdie:2013aa], a detailed microbiome analysis workflow [@Callahan:2016ab]). As the new statistical methods continue to be developed, we envision our package will continue providing novel insights in the role of human microbiome in health and disease.
+
 
 # Abbreviations
 

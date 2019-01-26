@@ -1,12 +1,51 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Mikhail Dozmorov at 2019-01-25 20:34:10 -0500 
+%% Created for Mikhail Dozmorov at 2019-01-26 09:24:41 -0500 
 
 
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+
+@article{McMurdie:2013aa,
+	Abstract = {BACKGROUND: the analysis of microbial communities through dna sequencing brings many challenges: the integration of different types of data with methods from ecology, genetics, phylogenetics, multivariate statistics, visualization and testing. With the increased breadth of experimental designs now being pursued, project-specific statistical analyses are often needed, and these analyses are often difficult (or impossible) for peer researchers to independently reproduce. The vast majority of the requisite tools for performing these analyses reproducibly are already implemented in R and its extensions (packages), but with limited support for high throughput microbiome census data.
+RESULTS: Here we describe a software project, phyloseq, dedicated to the object-oriented representation and analysis of microbiome census data in R. It supports importing data from a variety of common formats, as well as many analysis techniques. These include calibration, filtering, subsetting, agglomeration, multi-table comparisons, diversity analysis, parallelized Fast UniFrac, ordination methods, and production of publication-quality graphics; all in a manner that is easy to document, share, and modify. We show how to apply functions from other R packages to phyloseq-represented data, illustrating the availability of a large number of open source analysis techniques. We discuss the use of phyloseq with tools for reproducible research, a practice common in other fields but still rare in the analysis of highly parallel microbiome census data. We have made available all of the materials necessary to completely reproduce the analysis and figures included in this article, an example of best practices for reproducible research.
+CONCLUSIONS: The phyloseq project for R is a new open-source software package, freely available on the web from both GitHub and Bioconductor.},
+	Author = {McMurdie, Paul J and Holmes, Susan},
+	Date-Added = {2019-01-26 09:23:40 -0500},
+	Date-Modified = {2019-01-26 09:23:40 -0500},
+	Doi = {10.1371/journal.pone.0061217},
+	Journal = {PLoS One},
+	Journal-Full = {PloS one},
+	Mesh = {Data Interpretation, Statistical; Humans; Metagenome; Multivariate Analysis; Phylogeny; Principal Component Analysis; Sequence Analysis, DNA; Software},
+	Number = {4},
+	Pages = {e61217},
+	Pmc = {PMC3632530},
+	Pmid = {23630581},
+	Pst = {epublish},
+	Title = {phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data},
+	Volume = {8},
+	Year = {2013},
+	Bdsk-Url-1 = {https://doi.org/10.1371/journal.pone.0061217}}
+
+@article{Callahan:2016ab,
+	Abstract = {High-throughput sequencing of PCR-amplified taxonomic markers (like the 16S rRNA gene) has enabled a new level of analysis of complex bacterial communities known as microbiomes. Many tools exist to quantify and compare abundance levels or OTU composition of communities in different conditions. The sequencing reads have to be denoised and assigned to the closest taxa from a reference database. Common approaches use a notion of 97% similarity and normalize the data by subsampling to equalize library sizes. In this paper, we show that statistical models allow more accurate abundance estimates. By providing a complete workflow in R, we enable the user to do sophisticated downstream statistical analyses, whether parametric or nonparametric. We provide examples of using the R packages dada2, phyloseq, DESeq2, ggplot2 and vegan to filter, visualize and test microbiome data. We also provide examples of supervised analyses using random forests and nonparametric testing using community networks and the ggnetwork package.},
+	Author = {Callahan, Ben J and Sankaran, Kris and Fukuyama, Julia A and McMurdie, Paul J and Holmes, Susan P},
+	Date-Added = {2019-01-26 09:19:51 -0500},
+	Date-Modified = {2019-01-26 09:19:51 -0500},
+	Doi = {10.12688/f1000research.8986.2},
+	Journal = {F1000Res},
+	Journal-Full = {F1000Research},
+	Keywords = {community analysis; microbiome; taxonomy},
+	Pages = {1492},
+	Pmc = {PMC4955027},
+	Pmid = {27508062},
+	Pst = {epublish},
+	Title = {Bioconductor Workflow for Microbiome Data Analysis: from raw reads to community analyses},
+	Volume = {5},
+	Year = {2016},
+	Bdsk-Url-1 = {https://doi.org/10.12688/f1000research.8986.2}}
 
 @article{Callahan:2016aa,
 	Abstract = {We present the open-source software package DADA2 for modeling and correcting Illumina-sequenced amplicon errors (https://github.com/benjjneb/dada2). DADA2 infers sample sequences exactly and resolves differences of as little as 1 nucleotide. In several mock communities, DADA2 identified more real variants and output fewer spurious sequences than other methods. We applied DADA2 to vaginal samples from a cohort of pregnant women, revealing a diversity of previously undetected Lactobacillus crispatus variants.},
