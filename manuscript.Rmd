@@ -24,11 +24,13 @@ The integrative Human Microbiome project (iHMP), also known as the HMP Phase 2, 
 
 # Introduction
 
-The development of metagenomics is fueled by the falling costs of sequencing. Owning to the fact that microbial genomes are much smaller than vertebrate genomes, relatively small amount of sequencing (and costs) provides an affordable way to generate rich and useful sequencing. Consequently, several consortia generated and made available unique datasets illuminating the microbial diversity of life. 
+The development of metagenomics is fueled by the falling costs of sequencing. Owning to the fact that microbial genomes are much smaller than vertebrate genomes, relatively small amount of sequencing (and costs) provides an affordable way to generate rich and useful sequencing. Consequently, several consortia generated and made available unique datasets illuminating the microbial diversity of life [@McDonald:2018aa; @Thompson:2017aa]. 
 
-One of the most important aspects of open science is data availability, allowing data reanalysis and investigation of questions not envisioned in the original studies. The raw sequencing data and processed OTU tables are frequently available from public repositories such as Gene Expression Omnibus (GEO) and Short Read Archive (SRA). Individual studies, such as  Databases containing data from multiple studies, such as MicrobiomeHD [@Duvallet:2017aa], Qiita [@Gonzalez:2018aa], are also being created.
+The integrative Human Microbiome Project was designed to learn host-microbiome interactions over time [@Integrative-HMP-iHMP-Research-Network-Consortium:2014aa]. Three longitudinal studies were conducted, each gathering multi-omics from patients over several visits. The Multi-Omics Microbiome Study: Pregnancy Initiative (MOMS-PI) was designed to study the association between dynamic changes in the vaginal microbiome and host-specific measures and the adverse pregnancy outcomes, such as preterm delivery. The Irritable Bowel Disease multi-omics database (IBDMBD) was developed to evaluate the dynamisc of gut microbial ecosystem as a target for diagnosis. The type 2 diabetes mellitus (T2D) study was set to perform a detailed analysis of the biological processes that occur in the human microbiome and host by longitudinal profiling of patients at risk.
 
-Although the data availability is essential, methods for its analysis are no less important. Various software solutions have been implemented to access specific datasets, such as Jupyter notebooks for the analysis of the American Gut project [@McDonald:2018aa], as well as web-based platforms, such as Qiita [@Gonzalez:2018aa]. Although the R/Bioconductor ecosystem is a de facto standard in genomics research [@Gentleman:2004aa], R-based methods to access microbiome data still lag behind. The `HMP16Sdata` R package pioneered 
+One of the most important aspects of open science is data availability, allowing data reanalysis and investigation of questions not envisioned in the original studies. For microbiome studies, the raw sequencing data and processed operational taxonomic units (OTU) tables are frequently available from public repositories such as Gene Expression Omnibus (GEO) and Short Read Archive (SRA). Databases containing processed data from multiple studies, such as MicrobiomeHD [@Duvallet:2017aa], Qiita [@Gonzalez:2018aa], are also being created. The Human Microbiome Project Data Portal (https://portal.hmpdacc.org/) was set to streamline data access to Phase 1 and Phase 2 HMP data.
+
+Although the data availability is essential, methods for its analysis are no less important. Various software solutions have been implemented to access specific datasets, such as Jupyter notebooks for the analysis of the American Gut project [@McDonald:2018aa], as well as web-based platforms, such as Qiita [@Gonzalez:2018aa]. Although the R/Bioconductor ecosystem is a de facto standard in genomics research [@Gentleman:2004aa], R-based methods to access microbiome data still lag behind. The `curatedMetagenomicData` R package provided microbial taxonomic, functional, and gene marker data for samples collected from different body sites [@Pasolli:2017aa]. The `HMP16Sdata` R package was developed to provide Phase 1 HMP data [@Schiffer:2019aa]. However, the streamlined access to Phase 2 HMP data within R/Bioconductor ecosystem does not exist.
 
 The ability to integrate multiple layers of omics data is another enticing possibility envisioned by the iHMP consortium. Several complementary datasets from the same subjects were expected to be generated. Consequently, methods for integrative analysis of microbiome omics data have been developed, reviewed in .
 
@@ -78,10 +80,6 @@ _Conflict of Interest._ None.
 
 # Funding
 
-# Tables
 
-# Figure legends
-
-# Supplementary material
 
 # References
