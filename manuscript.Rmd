@@ -18,8 +18,8 @@ John C. Stansfield^1^ (stansfieldjc@vcu.edu), Shujian Zhang^2^ (szhang42@u.roche
 
 # Abstract
 
-HMP2Data is a Bioconductor package providing the data of the integrative Human Microbiome Project (iHMP), also known as the second phase of HMP project (HMP2). It contains 16S rRNA sequencing data from three longitudinal studies, 1) MOMS-PI, pregnancy and preterm birth; 2) IBD, gut disease onset, inflammatory bowel disease; and 3) T2D, onset of type 2 diabetes and respiratory viral infection. Where available, other data is also provided, such as cytokine measures. Raw data files were downloaded from the HMP Data Analysis and Coordination Center. Processed data is provided as matrices, SummarizedExperiment, MultiAssayExperiment, and phyloseq class objects.
-    
+The integrative Human Microbiome project (iHMP), also known as the HMP Phase 2, was designed to investigate the host-microbiome interactions over time. To achieve this goal, it gathered multi-omics data from three studies: 1) MOMS-PI, pregnancy and preterm birth; 2) IBD, gut disease onset, inflammatory bowel disease; and 3) T2D, onset of type 2 diabetes and respiratory viral infection. Multi-omics datasets from 16S rRNA sequencing, cytokine profiling, lipidomics, and basic annotation information, were made publicly available through the iHMP data portal. However, access to these data can be hindered by the complex bioinformatics steps, the different data formats, data dimensions, the need to merge disparate datasets. The `HMP2Data` is an R package providing the iHMP data in a unified framework of standard Bioconductor objects, such as SummarizedExperiment, MultiAssayExperiment, phyloseq, as well as data matrices. It enables a bioinformatician to quickly access and analyze the iHMP data within the R/Bioconductor ecosystem.
+
 ### Keywords
 
 # Introduction
@@ -60,7 +60,7 @@ Sequence analysis and taxonomic profiling of iHMP data were done by assigning se
 
 RSV
 
-- Greengenes are not updated. RDP, SILVA?
+- Greengenes are not updated. RDP, SILVA? NCBI RefSeq 16S rrna database, Genome Taxonomy Database (GTDB)
 Although the Greengenes taxonomy reference database remains a gold-standard in microbiome research [@McDonald:2012aa], it has not been updated since 2013. The use of more recent databases, such as SILVA [@Quast:2013aa], is warranted for maximally accurate reconstruction of mocrobial taxonomy.
 
 - Pipelines differ, need to unify data processing (bioBakery?)
