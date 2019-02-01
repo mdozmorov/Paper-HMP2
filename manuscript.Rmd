@@ -81,6 +81,10 @@ Virtually any large-scale consortium developed their own data processing and ana
 - Analysis
 We described a limited set of analyses that can be performed using the `HMP2Data` R package. However, many more analyses are possible (see `phyloseq` tutorials [@McMurdie:2013aa], a detailed microbiome analysis workflow [@Callahan:2016ab]). As the new statistical methods continue to be developed, we envision our package will continue providing novel insights into the role of the human microbiome in health and disease.
 
+- Normalization/differential abundance analysis
+    - McMurdie, Paul J., and Susan Holmes. “Waste Not, Want Not: Why Rarefying Microbiome Data Is Inadmissible.” Edited by Alice Carolyn McHardy. PLoS Computational Biology 10, no. 4 (April 3, 2014): e1003531. https://doi.org/10.1371/journal.pcbi.1003531. - Rarefying microbiome data or using proportions is wrong, statistical arguments. Variance stabilization (DESeq) and upper-quartile log-fold change normalization (edgeR) perform well to normalize the data. Negative binomial and zero-inflated Gaussian mixture models are recommended to test for differential abundance, differential abundance test in metagenomeSeq package also performs well. Rarefying lead to high proportion of false positives. Importance of filtering.
+
+
 
 # Abbreviations
 
